@@ -6,20 +6,6 @@ import (
 	logging "github.com/codemodify/systemkit-logging"
 )
 
-// // LoggerWithFields -
-// type LoggerWithFields interface {
-// 	logging.Logger
-
-// 	TraceWithFields(fields logging.Fields)
-// 	PanicWithFields(fields logging.Fields)
-// 	FatalWithFields(fields logging.Fields)
-// 	ErrorWithFields(fields logging.Fields)
-// 	WarningWithFields(fields logging.Fields)
-// 	InfoWithFields(fields logging.Fields)
-// 	SuccessWithFields(fields logging.Fields)
-// 	DebugWithFields(fields logging.Fields)
-// }
-
 // LogEntryWithTagAndLevel -
 type LogEntryWithTagAndLevel struct {
 	logging.LogEntry        //
